@@ -13,7 +13,7 @@ namespace Parcial1ValeriaGutierrezE.Models
 
         [Required]
         [StringLength(30,MinimumLength =3,ErrorMessage ="Ingrese longitud entre 3 a 30 caracteres")]
-        public double Description { get; set; }
+        public string Description { get; set; }
 
         [Required]
         public double Price { get; set; }
